@@ -1,20 +1,19 @@
-# Job Board Application
+# Job Board Project
 
-## Project Overview
-A Django-based job board application where users can browse job listings, create new listings, and apply for jobs. The project demonstrates back-end development skills with Python, Django, and object-oriented programming (OOP).
+This is a job board web application I built using Django, designed to allow users to create, view, and submit job listings. It helps demonstrate my skills in backend web development with Python and Django, as well as my understanding of models, views, templates, and forms.
 
 ## Features
-- Job listing creation
-- User authentication (login, register)
-- Job listing search and filter functionality
-- Responsive design with HTML, CSS, and Django templates
-- Unit testing with Django's testing framework
+
+- **Job Listings:** View a list of job openings including details like the job title, company, description, and salary.
+- **Create Job Listings:** Users can add new job listings via a form, providing essential details about the job.
+- **Job Details:** Users can click on individual job listings to view more detailed information.
 
 ## Tech Stack
-- Python 3.x
-- Django
-- HTML, CSS
-- SQLite (or PostgreSQL for production)
+
+- **Backend:** Django (Python)
+- **Frontend:** HTML, CSS
+- **Database:** SQLite (used by default in Django)
+- **Deployment:** Local development server or you can deploy it to platforms like Heroku.
 
 ## Setup Instructions
 1. Clone the repository:
@@ -50,6 +49,8 @@ A Django-based job board application where users can browse job listings, create
    ```bash
    python manage.py runserver
    ```
+### Link to the Website
+If you want to access the project online, you can deploy it to platforms like Heroku. For now, you can view it locally at http://127.0.0.1:8000/.
 
 ## Future Improvements
 - Add search functionality for job seekers
